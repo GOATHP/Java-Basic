@@ -1,30 +1,25 @@
 package game;
 
-import java.util.Random;
-
-
 public class Cleric {
+    final static int MAX_HP = 50;
+    final static int MAX_MP = 50;
     String name;
-    int hp = 50;
-    int mp = 10;
-    final int maxHp = 50;
-    final int maxMp = 50;
+    int hp = MAX_HP;
+    int mp = MAX_MP;
 
-    void selfAid() {
+    public void selfAid() {
 
-        hp = maxHp;
+        hp = MAX_HP;
         mp -= 5;
     }
 
-    int pray(int sec) {
+    public int pray(int sec) {
         int cure = (int) Math.floor(Math.random() * 3) + sec;
-
-
         mp += cure;
 
-        if (mp >= maxMp) {
-            int tmp = mp - maxMp;
-            mp = maxMp;
+        if (mp >= MAX_MP) {
+            int tmp = mp - MAX_MP;
+            mp = MAX_MP;
 
             return cure - tmp;
         } else {

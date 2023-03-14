@@ -40,4 +40,14 @@ public class Hero {
         System.out.println(this.name + "는 잠을 자고 회복했다!");
     }
 
+    public int getHP() {
+        
+        return this.hp;
+    }
+
+    public void setHP(int i) {
+        this.hp = i;
+        
+    }
+
 }
