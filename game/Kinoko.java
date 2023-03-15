@@ -9,7 +9,17 @@ public class Kinoko {
         System.out.println("괴물 버섯 " + this.suffix + "는 도망갔다!");
     }
     
-    Kinoko(int hp) {
+    public Kinoko(char suffix) {
+        this.suffix = suffix;
+    }
+    
+    public void attack(Hero hero) {
+        System.out.println("키노코 " + this.suffix);
+        System.out.println("10의 데미지");
+        hero.setHP(hero.getHP() - 10);
+    }
+    
+    public Kinoko(int hp) {
         this.hp = 50;
     }
 }

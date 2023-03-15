@@ -27,7 +27,11 @@ public class Hero {
         this.name = name;
     }
     
-    void attack() {}
+    public void attack(Kinoko enemy) {
+        System.out.println(this.name + "의 공격!");
+        enemy.hp -= 5;
+        System.out.println("5포인트의 데미지를 주었다!");
+    }
 
     void run() {}
 

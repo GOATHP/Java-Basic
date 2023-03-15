@@ -1,15 +1,21 @@
 package game;
 
 public class Main {
-    int num = 10;
-    public static void solution() {
-    }
     public static void main(String[] args) {
-        Wizard wizard = new Wizard();
-        wizard.getWand();
-        Wand wand = new Wand();
-        wand.setPower(60);
-        
+    PoisonKinoko poisonKinoko = new PoisonKinoko('A');
+    
+    poisonKinoko.attack(null);
+    }
+}
+//    int num = 10;
+//    public static void solution() {
+//    }
+//    public static void main(String[] args) {
+//        Wizard wizard = new Wizard();
+//        wizard.getWand();
+//        Wand wand = new Wand();
+//        wand.setPower(60);
+//        
 //        Main.solution();
 //        Main main = new Main();
 //        System.out.println(main.num);
@@ -40,6 +46,6 @@ public class Main {
 //        ClericRefactoring clericUpgrade = new ClericRefactoring("박태현짱", 80);
 //        
 //        System.out.println(clericUpgrade.getName() + " " +clericUpgrade.hp + " " + clericUpgrade.mp);
-    }
-
-}
+//    }
+//
+//}
