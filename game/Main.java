@@ -1,12 +1,13 @@
 package game;
 
 public class Main {
-    public static void main(String[] args) {
-    PoisonKinoko poisonKinoko = new PoisonKinoko('A');
-    
-    poisonKinoko.attack(null);
+    public static void main(String[] args) {    
+    Hero hero = new Hero();
+    System.out.println(hero.toString());
+    equals()
     }
 }
+
 //    int num = 10;
 //    public static void solution() {
 //    }

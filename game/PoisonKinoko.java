@@ -1,12 +1,11 @@
 package game;
 
 public class PoisonKinoko extends Kinoko {
-    private int paNumber = 5;
+    private int paNumber;
     public PoisonKinoko(char suffix) {
         super(suffix);
+        paNumber = 5;
     }
-    
-    
     @override
     public void attack(Hero hero) {
         super.attack(hero);
