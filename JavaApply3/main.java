@@ -5,11 +5,22 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.Objects;
 import JavaApply.Person;
+import JavaApply.Word;
+import JavaApply4.StrongBox.KeyType;
 
 public class main {
 
+    private static final String KeyType = null;
+
     public static void main(String[] args) {
-//        Book firstBook = new Book();
+        KeyType keytype = KeyType.PADLOCK;
+    }
+}        
+//        Word word = new Word("sde");
+//        System.out.println(word.isVowel(2));
+//        System.out.println(word.isConsonant(2));
+        ///퀴즈 2
+        //        Book firstBook = new Book();
 //        Book secondBook = new Book();
 //        
 //        
@@ -44,13 +55,12 @@ public class main {
 //        for (Book paper : list) {
 //            System.out.println(paper.getTitle());
 //        }
-    Book firstBook = new Book();
-    
-    firstBook.setTitle("총균쇠");
-    firstBook.setPublishDate(new Date(2023, 3, 16));
-    
+//    Book firstBook = new Book();
+//    
+//    firstBook.setTitle("총균쇠");
+//    firstBook.setPublishDate(new Date(2023, 3, 16));
+//    
+//
+//    Book secondBook = firstBook.clone();
+//    System.out.println(firstBook.equals(secondBook));
 
-    Book secondBook = firstBook.clone();
-    System.out.println(firstBook.equals(secondBook));
-    }
-}

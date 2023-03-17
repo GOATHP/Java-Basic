@@ -11,7 +11,7 @@ public class main {
         BankAccount b = new BankAccount("1234", 5000);
         System.out.println(a.equals(b)); 
         
-        b.setAccountNumber(" 4649");
+        b.setAccountNumber("4649");
         System.out.println(a.equals(b));
 //                Date todayDate = new Date();
 //        
