@@ -1,6 +1,5 @@
-# 자산관리부터 재무설계까지 원큐에, 하나원큐레이터
-
-[프로젝트 홈페이지 - https://koposoftware.github.io/2022_1_ekkoo/](https://koposoftware.github.io/2022_1_ekkoo/)
+# 건강과 보험 모두 챙기자, 하나 InsureFIt
+[프로젝트 홈페이지 - https://koposoftware.github.io/)
 
 # 1. 프로젝트 개요
 ## * 프로젝트 배경
