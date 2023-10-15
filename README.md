@@ -1,5 +1,5 @@
 # 건강과 보험 모두 챙기자, 하나 InsureFIt
-[프로젝트 홈페이지 - https://koposoftware.github.io/)
+[프로젝트 홈페이지 - https://koposoftware.github.io/]
 
 # 1. 프로젝트 개요
 ## * 프로젝트 배경
